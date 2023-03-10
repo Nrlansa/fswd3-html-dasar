@@ -1,0 +1,115 @@
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 140px;
+  height: 150px;
+  /* margin: 10px; 
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.flex8 {
+  margin-left: 10px;
+}
+
+.flex2 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.flex9 {
+  margin-right: 10px;
+}
+
+.flex3 {
+  margin-top: 10px;
+}
+.flex4 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.flex10 {
+  margin-top: 10px;
+}
+.flex11 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.flex15 {
+  margin-left: 10px;
+}
+
+.flex17 {
+  margin-left: 10px;
+}
+.flex22 {
+  margin-left: 10px;
+}
+.flex23 {
+  margin-right: 10px;
+}
+.flex18 {
+  margin-left: 10px;
+}
+.flex25 {
+  margin-left: 10px;
+}
+.flex18 {
+  margin-top: 10px;
+}
+.flex19 {
+  margin-left: 10px;
+} */
+
+.container {
+  display: flex;
+  background-color: red;
+  width: 50%;
+}
+
+.item1 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  flex: 35%;
+}
+
+.item2 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  flex: 20%;
+}
+.item3 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.item4 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.item5 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
