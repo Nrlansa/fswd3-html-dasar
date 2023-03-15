@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  alert("Selamat Datang di Pemainan batu gunting kertas");
+
+  let response = prompt("Ketik nama kamu yaa...");
+  alert("" + response);
+
+  alert("Permainan Dimulai");
+
+  let playerChoice = prompt("Pilih antara gunting, batu atau kertas");
+  let computerChoice = Math.random();
+  if (computerChoice < 0.34) {
+    computerChoice = "gunting";
+  } else if (computerChoice <= 0.67) {
+    computerChoice = "batu";
+  } else {
+    computerChoice = "kertas";
+  }
+  alert(
+    "Kamu memilih " +
+      playerChoice +
+      ", dan Komputer memilih " +
+      computerChoice +
+      "."
+  );
+
+  let result = "";
+  if (playerChoice === computerChoice) {
+    result = "Hasilnya seri!";
+  } else if (playerChoice === "gunting") {
+    if (computerChoice === "kertas") {
+      result = "Kamu menang!";
+    } else {
+      result = "Kamu kalah!";
+    }
+  } else if (playerChoice === "batu") {
+    if (computerChoice === "gunting") {
+      result = "Kamu menang!";
+    } else {
+      result = "Kamu kalah!";
+    }
+  } else if (playerChoice === "kertas") {
+    if (computerChoice === "batu") {
+      result = "Kamu menang!";
+    } else {
+      result = "Kamu kalah!";
+    }
+  } else {
+    result = "Masukkan pilihan yang benar!";
+  }
+  alert(result);
+</script>
+</body>
+</html>
