@@ -40,13 +40,11 @@ h1 {
 }
 .item-5 {
   background: #02ffff;
-
   grid-row: 2 / span 2;
 }
 
 .item-6 {
   background: #f87400;
-
   grid-row: 2 / span 3;
 }
 
